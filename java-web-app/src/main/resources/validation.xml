@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<validation-config
+    xmlns="http://jakarta.apache.org/validation/xml/ns/jakarta-validation-configuration"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://jakarta.apache.org/validation/xml/ns/jakarta-validation-configuration jakarta-validation-configuration-2.0.xsd"
+>
+    <default-configuration>
+        <message-interpolator>org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator</message-interpolator>
+    </default-configuration>
+</validation-config>
